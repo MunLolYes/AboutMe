@@ -1,5 +1,5 @@
 body {
-    background-image: url('./Images/background.jpeg');
+    background-image: url('./Images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     cursor: default;
@@ -54,8 +54,8 @@ body {
 
 #Main{
 
-    width: 450px;
-    height: 800px;
+    width: 600px;
+    height: 1000px;
     border-radius: 10px;
 
     background-image: url("./Images/img2.jpeg");
