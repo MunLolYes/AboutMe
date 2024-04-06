@@ -1,9 +1,11 @@
 body {
-    background-image: url('./Images/background.png');
+    background-image: url('./Images/blurrybackground.png');
     background-repeat: no-repeat;
     background-size: cover;
     cursor: default;
 }
+
+
 
 .AText {
 
@@ -13,10 +15,10 @@ body {
     font-style: italic;
 
     position: relative;
-    top: 19px;
+    top: 5px;
 
     cursor: default;
-    color: white;
+    color: grey;
     transition: all .15s linear;
 }
 
@@ -27,7 +29,7 @@ body {
 .BText {
 
     font-size:50px;
-    color: black;
+    color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: all .10s linear;
 }
@@ -35,6 +37,24 @@ body {
 .BText:hover{
 
     font-size:55px;
+}
+
+#PFP{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    transition: all .15s linear;
+}
+
+#PFP:hover{
+    width:115px;
+    height:115px;
+}
+
+#NormalImage{
+    width: 550px;
+    height: 150px;
+    padding: 15px;
 }
 
 .CText {
@@ -61,13 +81,31 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#Example3 {
+
+    color:rgb(251, 255, 2);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Example4 {
+
+    color:rgb(141, 2, 255);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #Main{
 
     width: 600px;
-    height: 1000px;
+    height: 1400px;
     border-radius: 10px;
 
-    background-image: url("./Images/img2.jpeg");
+    background-image: url("./Images/secondBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     cursor: default;
